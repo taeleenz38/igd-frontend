@@ -6,7 +6,7 @@ import { useAccount } from "wagmi"
 
 export default function Home() {
 
-  const { address, isConnected, isDisconnected } = useAccount()
+  const { isConnected } = useAccount()
 
   if (isConnected) {
     return (
