@@ -1,4 +1,4 @@
-
+'use client'
 import './globals.css'
 import type { Metadata } from 'next'
 import { EthereumClient, w3mConnectors, w3mProvider } from '@web3modal/ethereum'

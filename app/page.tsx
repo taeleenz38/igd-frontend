@@ -1,3 +1,4 @@
+
 import MintInvoice from "./components/MintInvoice"
 import Navbar from "./components/Navbar"
 import Greeting from "./components/Greeting"
