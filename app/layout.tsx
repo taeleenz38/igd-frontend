@@ -1,6 +1,6 @@
 'use client'
 import './globals.css'
-import type { Metadata } from 'next'
+import Head from 'next/head';
 import { EthereumClient, w3mConnectors, w3mProvider } from '@web3modal/ethereum'
 import { Web3Modal } from '@web3modal/react'
 import { configureChains, createConfig, sepolia, WagmiConfig } from 'wagmi'
@@ -29,6 +29,9 @@ export default function RootLayout({
   return (
 
     <html lang="en">
+      <Head>
+        <title>Web3 Invoice</title>
+      </Head>
         <WagmiConfig config={wagmiConfig}>
 
         <body className={montserrat.className}>{children}
