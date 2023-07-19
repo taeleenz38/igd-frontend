@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Web3Button } from '@web3modal/react'
 
